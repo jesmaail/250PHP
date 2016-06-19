@@ -5,7 +5,7 @@
 	<?php
 		$server = "localhost";
 		$user = "root";
-		$password = "sabih93";
+		$password = "password";
 		$db = "cw2";
 		$conn = mysql_connect($server, $user, $password);
 		$db_select_success = mysql_select_db($db,$conn);
